@@ -95,6 +95,37 @@ header{
     font-weight: 600;
 }
 
+.fourth-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.fourth-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    padding: 30px 160px;
+    background-color: #3882F6;
+    border-radius: 7px;
+}
+.action-call{
+    color: white;
+}
+.action-description{
+    color: white;
+}
+.sign-up-footer{
+    background-color: #3882F6;
+    border: white solid 1px;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
 h2{
     font-size: 36px;
     color: #1F2937;
@@ -120,6 +151,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
     color: lightgray;
     background-color: #1F2937;
 }
