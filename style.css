@@ -75,7 +75,24 @@ header{
 
 
 .third-section{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+    padding-top: 80px;
     background-color: #E5E7EB;
+}
+.third-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    gap: 5px;
+}
+.quote-name{
+    align-self: flex-end;
+    color: black;
+    font-weight: 600;
 }
 
 h2{
